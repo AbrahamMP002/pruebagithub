@@ -1,0 +1,59 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+h2{
+	font-family: 'Bemio';
+	color: black;
+}
+h5{
+	font-family: 'Bemio';
+	color: black;
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Bemio';
+}
+section{
+	border-top: 40px;
+	padding: 0 100px;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.caja{
+	position: relative;
+	max-width: 600px;
+	padding: 40px;
+	background: rgba(255, 255, 255, 0.5);
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 1);
+}
+
+
+.title{
+	width: 100%;
+	background: #FF9003;
+	height: 80px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.navegacion{
+	width: 100%;
+	background: #3F83F9;
+	display: flex;
+	justify-content: center;
+}
+.menu{
+	width: 1300px;
+	display: flex;
+	flex-wrap: wrap;
+	height: 80px;
+}
